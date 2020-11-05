@@ -68,6 +68,20 @@ a.login-btn {
 
 }
 
+@media (max-width: 800px){
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menu-nav ul {
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0px 0px 0px;
+    }
+  }
+
 /* HERO */ 
 
 .hero {
@@ -165,11 +179,17 @@ a.login-btn {
     text-align: left;
 }
 
+@media (max-width: 800px){
+    .phone-info input {
+        margin-bottom: 20px;
+    }
+  }
+
 /* cards */ 
 
 .cards {
     max-width: 980px;
-    margin: 80px auto;
+    margin: 140px auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
