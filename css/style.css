@@ -1,0 +1,264 @@
+/* GLOBAL STYLES */ 
+
+body, h1, h2, h3, p, ul, li a {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    color: #222222;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* HEADER */ 
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-logo a {
+    font-size: 40px;
+    font-weight: 700;
+    color: #323757;
+}
+
+.menu-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-nav a {
+    font-size: 20px;
+    display: block;
+    padding: 3px 3px;
+    color: #323757;
+    font-weight: 500;
+    margin: 0 13px;
+}
+
+a.login-btn {
+    color: #fff;
+    padding: 1px 50px;
+    background: #4c77e0;
+    border-radius: 5px;
+
+}
+
+/* HERO */ 
+
+.hero {
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.img-hero {
+    flex:1 1 430px;
+}
+
+
+.hero-info h1 {
+    font-size: 50px;
+    color:#323757;
+    margin-bottom: 25px;
+}
+
+ .btn-default {
+    background-color: #323757;
+    font-family: poppins;
+    padding: 6px 38px 6px 38px;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 33px;
+}
+
+/* Serviços */
+
+.services {
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.service-info {
+    flex: 1 1 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.code-img {
+    flex: 1 1 200px;
+}
+
+.service-info ul {
+    font-size: 21px;
+}
+
+.service-info li {
+    padding: 6px 0;
+}
+
+.service-info li::before {
+    content: "\f058";
+    font-family: FontAwesome;
+    margin: 28px;
+    color: #4c77e0;
+}
+
+/* Phone input */ 
+
+.phone {
+    max-width: 1200px;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.phone-info {
+    flex: 1 1 400px;
+    margin-left: 14%;
+}
+
+.phone-info h2 {
+    margin: 0px 0px 26px 0px;
+    font-weight: 600;
+}
+
+.phone-info input {
+    padding: 10px 74px 5px 9px;
+    border-radius: 4px;
+    border: solid 2px;
+    border-color: #adadad;
+    font-family: poppins;
+    text-align: left;
+}
+
+/* cards */ 
+
+.cards {
+    max-width: 980px;
+    margin: 80px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.avatar {
+    flex: 1 1 200px;
+    padding: 15px;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+.box {
+    display: flex;
+    flex: 1 1 400px;
+    background: #efefef;
+    border-radius: 36px;
+    padding: 21px;
+    margin: 15px 10px;
+}
+
+.cards-description p {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 6px;
+}
+
+.cards-description h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.cards-description h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #000;
+}
+
+footer .rodape {
+    max-width: 1200px;
+    margin: 80px auto 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 80px 0px 80px 0px;
+    justify-content: space-around;
+}
+
+footer .menu-logo a {
+color: #fff;
+}
+
+footer p {
+    color: #fff;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+footer h2 {
+    color: #fff;
+}
+
+footer li {
+    color: #fff;
+}
+
+footer i {
+    color: #fff;
+    font-size: 40px;
+}
+
+.social i {
+    font-size: 30px;
+    padding: 0px 10px 0 10px;
+}
+
+
+
+
+
+.cards-description p {}
+
+@media (max-width: 800px){
+  .rodape {
+      flex-direction: row;
+  }
+}
