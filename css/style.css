@@ -206,7 +206,7 @@ a.login-btn {
 /* cards */ 
 
 .cards {
-    max-width: 980px;
+    max-width: 1200px;
     margin: 140px auto;
     display: flex;
     flex-wrap: wrap;
