@@ -80,6 +80,11 @@ a.login-btn {
     justify-content: center;
     margin: 10px 0px 0px 0px;
     }
+
+    a.login-btn {
+        margin-top: 13px;
+        font-size: 15px;
+    }
   }
 
 /* HERO */ 
@@ -180,8 +185,21 @@ a.login-btn {
 }
 
 @media (max-width: 800px){
+
+    .phone {
+        margin: 0 16px 0 16px;
+    }
     .phone-info input {
-        margin-bottom: 20px;
+        padding: 10px 100px 10px 7px;
+    }
+
+    .phone-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+        text-align: center;
     }
   }
 
