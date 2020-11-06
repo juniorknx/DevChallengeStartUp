@@ -155,6 +155,12 @@ a.login-btn {
     color: #4c77e0;
 }
 
+@media (max-width: 800px){
+    .hero-info {
+        text-align: center;
+    }
+}
+
 /* Phone input */ 
 
 .phone {
@@ -247,6 +253,8 @@ a.login-btn {
     font-weight: 500;
 }
 
+/* RODAPE */ 
+
 footer {
     background-color: #000;
 }
@@ -298,5 +306,10 @@ footer i {
 @media (max-width: 800px){
   .rodape {
       flex-direction: row;
+  }
+
+  footer .about {
+      text-align: center;
+      margin: 20px 0 20px 0;
   }
 }
