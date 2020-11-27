@@ -1,6 +1,6 @@
  
  
- <h1 style="color:#323757;">Simples Layout desenvolvido com casses flexbox</h1>
+ <h1 style="color:#323757;">Simples Layout desenvolvido com classes flexbox</h1>
 
 # LIVE 
 
